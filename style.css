@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #FC0553;
+}
+
+header{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    background: #FC0553;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header .logo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+header .logo img{
+    width: 10%;
+}
+
+header .logo h1{
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+header .logo p{
+    margin-top: 24px;
+    color: #fff;
+}
+
+header .nav-bar ul{
+    list-style: none;
+    display: flex;
+}
+
+header .nav-bar ul li{
+    margin: 30px 20px;
+}
+
+header .nav-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+header .shopping{
+    display: flex;
+    align-items: center;
+}
+
+header .shopping .cart{
+    color: #fff;
+    font-size: 1.7rem;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+header .shopping a{
+    text-decoration: none;
+    color: #FC0553;
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.hero .background{
+    display: flex;
+    justify-content: center;
+    z-index: -1000;
+}
+
+.hero .background img{
+    margin-top: 11.6vh;
+    width: 32%;
+    background-size: cover;
+}
+
+.hero .title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .title h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10rem;
+    letter-spacing: 45px;
+}
+
+.hero .social-links{
+    top: 30%;
+    position: absolute;
+    color: #fff;
+    font-size: 32px;
+}
+
+.hero .social-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.hero .social-links .facebook, .behance, .twitter, .instagram, .linked{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    background: #E8E8E8;
+    height: 70vh;
+    padding: 7% 0px;
+}
+
+.about .about1{
+    margin-left: 350px;
+}
+
+.about .about1 .about-main p{
+    font-size: 20px;
+}
+
+.about .about1 .about-main h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.about .about1 .about-main span{
+    color: #FC0553;
+}
+
+.about .about1 .about-para{
+    text-align: justify;
+    line-height: 20px;
+}
+
+.about .about-pic img{
+    width: 70%;
+    margin-left: 60px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.stock{
+    background-color: #fff;
+    height: 80vh;
+}
+
+.stock h1{
+    font-size: 6rem;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 30px 10px;
+    text-transform: uppercase;
+    color: #E8E8E8;
+}
